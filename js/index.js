@@ -18,7 +18,7 @@ $(function () {
   }
   //获取json数据
   $.ajax({
-    url: 'https://kbracer.github.io/speed.json',
+    url: 'https://9ocket.github.io/speed.json',
     async: false,
     success: function (res) {
       // console.log(res);
