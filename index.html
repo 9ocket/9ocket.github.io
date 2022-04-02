@@ -110,15 +110,15 @@
 				</th>
 				<th class="car" style="
 				width: 50px;">车型</th>
+				<th class="g" style="
+				width: 120px;">车队</th>
 				<th class="speed" style="
 				width: 50px;">
-					圈速
+					圈速(s)
 					<!-- <img src="./img/tips_alarm.png" alt="" class="icon"> -->
 				</th>
 				<th class="g" style="
-				width: 50px;">重量</th>
-				<th class="g" style="
-				width: 50px;">车队</th>
+				width: 50px;">重量(g)</th>
 				<th class="mods" style="
 				width: 50px;">改装</th>
 				<th>视频链接</th>
@@ -287,9 +287,9 @@
   >
     <td>{{i + 1}}</td>
     <td>{{v.car}}</td>
+	<td>{{v.team}}</td>
     <td>{{v.speed}}</td>
     <td>{{v.g}}</td>
-	<td>{{v.team}}</td>
     <td>{{if v.mods == 0}}
 		否
 		{{else if v.mods != 0}}
